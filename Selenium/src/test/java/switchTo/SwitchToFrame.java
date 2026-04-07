@@ -16,8 +16,7 @@ public class SwitchToFrame {
 		driver.get("");
 		WebElement element = driver.findElement(By.xpath(""));
 		driver.switchTo().frame(element);
-		driver.findElement(By.id("")).sendKeys("Kavya");
-		System.out.println("kavya");
+		driver.findElement(By.id("")).sendKeys("Kavya");	
 	}
 
 }
